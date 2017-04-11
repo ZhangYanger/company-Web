@@ -1,0 +1,298 @@
+
+*{
+	padding: 0;
+	margin: 0;
+}
+.contaniner{
+	width: 1000px;
+	margin: 0 auto;
+	font-size: 13px;
+	position: relative;
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
+ul{
+	list-style: none;
+}
+li a:hover{
+	color: blue;
+}
+
+/*header*/
+
+.top{
+	 overflow: auto;
+	 width: 100%;
+	 height: 50px;
+}
+.top li{
+	display: inline-block;
+	padding: 15px 8px;
+	float: right;
+}
+.logo{
+	height: 60px;
+	 
+	 
+	 line-height: 60px;
+	 width: 100%;
+}
+.top_left{
+	width: 600px;
+	height: 60px;
+	float: left;
+}
+ .top_left img,.top_left h1{
+ 	float: left;
+ 	display: inline-block;
+  
+ }
+ .top_right{
+	width: 400px;
+	height: 60px;
+	float: left;
+	 
+}
+.top_right li{
+	float: right;
+padding: 3px 4px;
+line-height: 60px
+}
+.top_right li:first-child a{
+	color: #999;
+}
+header nav{
+	 width: 100%;
+	margin-top: 30px;
+	height: 40px;
+	line-height: 40px;
+	background-color: rgb(34,131,210);
+}
+ 
+header nav ul li{
+	float: left;
+	
+	text-align: center;
+}
+header nav ul li a{
+	padding: 10px 20px;
+	color:#fff;
+	font-weight: bold;
+}
+
+header nav ul li a:hover{
+	color:#fff;
+	background-color: rgb(2,156,190);
+
+}
+header nav ul li span{
+	color: #ccc;
+}
+ #pic img{
+	width: 1000px;
+	height: 280px;
+	float: left;
+}
+#pics{
+	width: 1000px;
+	height: 300px;
+	position: relative;
+	overflow: hidden;
+	margin-top: 5px;
+}
+#pic{
+	width: 3100px;
+	height: 300px;
+	position: absolute;
+	z-index: 1;
+}
+#prev,#next{
+	font-size: 60px;
+	color: #ccc;
+	 position: absolute;
+	z-index: 3;
+	top:100px;
+	display: none;
+	
+}
+#prev{
+	 
+	left: 20px;
+}
+#next{
+	right: 20px;
+}
+
+/*主体部分*/
+.main-left{
+	width: 196px;
+	border:1px solid #ddd;
+	margin-top: -15px;
+	float: left;
+}
+.title h2{
+	height: 40px;
+	line-height: 40px;
+	font-size: 16px;
+	padding-left: 15px;
+	 
+	 font-weight: bold;
+	background-color: rgb(34,131,210);
+}
+.title {
+	 border:1px dotted  #ccc;
+}
+.list{
+	/**/
+	
+}
+/*.list ul{
+	list-style-type: square;
+	
+}*/
+.list ul li{
+	height: 25px;
+	line-height: 25px;
+	border:1px dotted #ccc;
+	width:196px;
+	background:url(images/list.jpg) 1% 50% no-repeat;
+
+}
+ .list ul li a{
+ 	padding-left: 20px;
+ }
+ .sec{
+   margin-top: 20px;
+ }
+ .conn{
+ 	line-height: 25px;
+ 	font-weight: bold;
+ 	padding-left: 10px;
+ 	padding-bottom: 20px;
+ }
+ /*.main-right*/
+ .main-right{
+ 	float: left;
+ 	width: 800px;
+ 	margin-top: -15px;
+ }
+ .art h1{
+    margin:0;
+    padding: 0;
+    font-size: 14px;
+    font-style: normal;
+ }
+ .section1{
+ 	margin-top: 20px;
+ 	height: 200px;
+ }
+  .tit{
+  	padding-left:35px;
+  	 background:url(images/company.png) no-repeat top left;
+  	 padding-bottom: 10px;
+  	 border-bottom: 2px dotted #ccc;
+  }
+ .tit h2{
+  display: inline-block;
+  padding-right: 10px;
+  font-family: "黑体";
+  font-size: 28px;
+ 
+ }
+ .tit span{
+ 	padding-left: 10px;
+ 	color: #999;
+ }
+ .art-left{
+ 	padding-top: 10px;
+ 	padding-left: 35px;
+ 	width: 580px;
+ 		float: left;
+ }
+  
+ .art-left ul li{
+     
+ 	height: 25px;
+ 	line-height: 25px;
+ 	border-bottom: 1px dotted #ccc;
+ 	background:url(images/list.jpg) 1% 50% no-repeat;
+ }
+ .art-left ul li a{
+ 	padding-left: 20px;
+ }
+ .art-left ul li span{
+ 	float: right;
+ 	padding-right: 80px;
+ }
+  .art-right{
+  	float: left;
+  }
+ .art-right img{
+ 	width: 160px;
+ 	height: 150px;
+ 	padding: 12px;
+
+ }
+ .tit1 h2 {
+  	margin-left: -150px;
+  }
+  
+ .art-left2{
+ 	padding: 10px;
+ 	line-height: 20px;
+ }
+
+ .art-right1 figure {
+	width: 200px;
+ 	height: 180px;
+    text-align: center;
+ 	float: left;
+ }
+ .art-right1 figure img{
+ 	width: 160px;
+ 	height: 150px;
+ 	padding: 15px 20px;
+ }
+ 
+
+ .copyright{
+ 	width: 1000px;
+  clear: both;
+ padding-top: 30px;
+ text-align: center;
+ margin:0 auto;
+
+ }
+ .copy{
+ 	height: 60px;
+ 	padding-top: 30px;
+ 	background-color: #ccc;
+ }
+ .copyright p{
+  font-size: 13px;
+  font-family: "宋体";
+ }
+ .art-left1{
+ 	padding-top: 10px;
+ 	padding-left: 35px;
+ 	width: 580px;
+ 		float: left;
+ }
+ .art-left1 ul li{
+     
+ 	height: 30px;
+ 	line-height: 30px;
+ 	 
+ 	background:url(images/list.jpg) 1% 50% no-repeat;
+ }
+ .art-left1 ul li a{
+ 	padding-left: 20px;
+ }
+ .art-left1 ul li span{
+ 	float: right;
+ 	padding-right: 80px;
+ }
+
+ 
